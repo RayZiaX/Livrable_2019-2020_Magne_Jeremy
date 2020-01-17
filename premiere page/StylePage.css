@@ -1,0 +1,22 @@
+/*Style general*/
+body{
+    background-image: url("./image/jeremlaD.png");
+    background-repeat: no-repeat;
+    background-color: cadetblue;
+    background-size: contain;
+    width:100vw;
+    height:100vh;
+}
+h1{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+button.bt-group{
+    flex: content !important;
+    align-items:self-end !important;
+   
+
+}
+

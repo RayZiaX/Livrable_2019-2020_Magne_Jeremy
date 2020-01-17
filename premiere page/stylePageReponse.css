@@ -1,0 +1,50 @@
+/*Style general*/
+body {
+    background-color: whitesmoke;
+    background-image: url('./image/jeremlaD.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    flex: inherit !important;
+    width: 150px;
+    transition: all 300ms !important;
+    border-color: transparent !important;
+    background: white;
+    height: 42px;
+}
+
+.btn-group {
+    height: 75px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+button:hover {
+  width: 200px;
+  height: 75px;
+  border-radius: 12px;
+}
+
+button.BoutonConnexion:hover {
+  background: rgba(217,142,5, 1) !important;
+}
+
+button.BoutonInscription:hover {
+  background: rgba(5,142,217, 1) !important;
+}
+
+div.entete {
+    background:white;
+    width: 50%;
+    padding: 12px;
+    box-shadow: 0 15px 30px rgba(50, 50, 50, .5);
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
